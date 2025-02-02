@@ -1,0 +1,150 @@
+body {
+    font-family: "Oswald", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+/*Header satuff here*/
+
+header {
+    background-color: #eaeaea;
+    
+    padding: 1rem 10px;
+    
+}
+header span {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #00509d;
+}
+
+
+/*Nav stuff here*/
+
+nav {
+    background-color: #ffd500;
+   
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 10px;
+    display: flex;
+}
+nav a {
+    text-decoration: none;
+    color: #003f88;
+    font-size: 1.1rem;
+    padding: .83rem 1rem;
+    display: block;
+    font-weight: 700;
+}
+nav li.active a {
+    background-color: #003f88;
+    color: #ffd500;
+}
+nav li a:hover {
+    color: white;
+}
+/*Main stuff here*/
+main {
+    padding: 1rem 10px;
+}
+
+main h1 {
+    color: #f20519;
+}   
+main h2 strong {
+    color: #003f88;
+}
+main h2 {
+    color: #003f88;
+    margin-bottom: .2rem;
+}
+main p {
+    color: #000;
+    margin: 0;
+}
+main dl dt {
+    color: #00509d;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+main dl dd {
+    color: #003f88;
+    font-size: .9rem;
+    margin-left: 20px;
+}
+main h3 {
+    
+    color: #f20519;
+    margin-top: 1rem;
+}
+
+main ul {
+    background-color: #eaeaea;
+    list-style-type: square; 
+    padding: 20px;
+}
+main ol {
+    background-color: #eaeaea;
+    list-style-type: circle;
+    border-radius: 10px;
+}
+main ul li {
+    background-color: #ffd500;
+    margin-bottom: .5rem;
+line-height: 125%;
+font-size: .9rem;
+color: #00509d;
+padding: 5px;
+margin-left: 35px;
+}
+main ol li {
+    background-color: #ffd500;
+    margin-bottom: .5rem;
+line-height: 125%;
+font-size: .9rem;
+color: #00509d;
+margin: 5px;
+}
+main strong {
+    color: #000;
+font-weight: 700;
+
+}
+main em {
+    font-weight: 300;
+}
+
+main address {
+    font-style: normal;
+    background-color: #ffd500;
+   padding: .5rem;
+   border-radius: 10px;
+   border: 1px solid #003f88;
+   width: 200px;
+}
+main a {
+    color: #003f88;
+}
+main a:hover {
+    color: rgb(180,4,18);
+}
+/*Footer stuff here*/
+footer {
+    background-color: #eaeaea;
+    text-align: center;
+    padding: 1rem 0;
+}
+footer p {
+    margin: 0;
+    font-size: .8rem;
+    color: #333;
+    letter-spacing: 3px;
+}
+
+
+
+
