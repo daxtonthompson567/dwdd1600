@@ -16,14 +16,14 @@ header {
 header span {
     font-size: 1.6rem;
     font-weight: 700;
-    color: #00509d;
+    color: #35495e;
 }
 
 
 /*Nav stuff here*/
 
 nav {
-    background-color: #ffd500;
+    background-color: #42b883;
    
 }
 nav ul {
@@ -34,32 +34,37 @@ nav ul {
 }
 nav a {
     text-decoration: none;
-    color: #003f88;
+    color: #35495e;
     font-size: 1.1rem;
     padding: .83rem 1rem;
     display: block;
     font-weight: 700;
 }
-nav li.active a {
-    background-color: #003f88;
-    color: #ffd500;
+nav li.Book a {
+    background-color: #347474;
+    color: #42b883;
+}
+nav li.Page a {
+    background-color: #347474;
+    color: #42b883;
 }
 nav li a:hover {
-    color: white;
+    color: #dd7e67;
 }
+
 /*Main stuff here*/
 main {
     padding: 1rem 10px;
 }
 
 main h1 {
-    color: #f20519;
+    color: #ff7e67;
 }   
 main h2 strong {
-    color: #003f88;
+    color: #347474;
 }
 main h2 {
-    color: #003f88;
+    color: #347474;
     margin-bottom: .2rem;
 }
 main p {
@@ -67,18 +72,18 @@ main p {
     margin: 0;
 }
 main dl dt {
-    color: #00509d;
+    color: #ff7e67;
     font-weight: 700;
     margin-top: 1rem;
 }
 main dl dd {
-    color: #003f88;
+    color: #ff7e67;
     font-size: .9rem;
     margin-left: 20px;
 }
 main h3 {
     
-    color: #f20519;
+    color: #ff7e67;
     margin-top: 1rem;
 }
 
@@ -93,20 +98,20 @@ main ol {
     border-radius: 10px;
 }
 main ul li {
-    background-color: #ffd500;
+    background-color: #347474;
     margin-bottom: .5rem;
 line-height: 125%;
 font-size: .9rem;
-color: #00509d;
+color: #42b883;
 padding: 5px;
 margin-left: 35px;
 }
 main ol li {
-    background-color: #ffd500;
+    background-color: #347474;
     margin-bottom: .5rem;
 line-height: 125%;
 font-size: .9rem;
-color: #00509d;
+color: #42b883;
 margin: 5px;
 }
 main strong {
@@ -120,17 +125,17 @@ main em {
 
 main address {
     font-style: normal;
-    background-color: #ffd500;
+    background-color: #347474;
    padding: .5rem;
    border-radius: 10px;
-   border: 1px solid #003f88;
+   border: 1px solid #42b883;
    width: 200px;
 }
 main a {
-    color: #003f88;
+    color: #ff7e67;
 }
 main a:hover {
-    color: rgb(180,4,18);
+    color: rgb(34, 159, 69);
 }
 /*Footer stuff here*/
 footer {
