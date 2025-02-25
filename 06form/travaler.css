@@ -1,0 +1,238 @@
+body {
+    font-family: "Oswald", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+/*Header satuff here*/
+
+header {
+    background-color: #eaeaea;
+    
+    padding: 1rem 10px;
+    
+}
+header span {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #35495e;
+}
+
+
+/*Nav stuff here*/
+
+nav {
+    background-color: #42b883;
+   
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 10px;
+    display: flex;
+}
+nav a {
+    text-decoration: none;
+    color: #35495e;
+    font-size: 1.1rem;
+    padding: .83rem 1rem;
+    display: block;
+    font-weight: 700;
+}
+nav li.Book a {
+    background-color: #347474;
+    color: #42b883;
+}
+nav li.Page a {
+    background-color: #347474;
+    color: #42b883;
+}
+nav li.gallary a {
+    background-color: #347474;
+    color: #42b883;
+}
+nav li a:hover {
+    color: #dd7e67;
+}
+
+/*Main stuff here*/
+main {
+    padding: 1rem 10px;
+}
+
+main h1 {
+    color: #ff7e67;
+}   
+main h2 strong {
+    color: #347474;
+}
+main h2 {
+    color: #347474;
+    margin-bottom: .2rem;
+}
+main p {
+    color: #000;
+    margin: 0;
+}
+main dl dt {
+    color: #ff7e67;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+main dl dd {
+    color: #ff7e67;
+    font-size: .9rem;
+    margin-left: 20px;
+}
+main h3 {
+    
+    color: #ff7e67;
+    margin-top: 1rem;
+}
+
+main ul {
+    background-color: #eaeaea;
+    list-style-type: square; 
+    padding: 20px;
+}
+main ol {
+    background-color: #eaeaea;
+    list-style-type: circle;
+    border-radius: 10px;
+}
+main ul li {
+    background-color: #347474;
+    margin-bottom: .5rem;
+line-height: 125%;
+font-size: .9rem;
+color: #42b883;
+padding: 5px;
+margin-left: 35px;
+}
+main ol li {
+    background-color: #347474;
+    margin-bottom: .5rem;
+line-height: 125%;
+font-size: .9rem;
+color: #42b883;
+margin: 5px;
+}
+main strong {
+    color: #000;
+font-weight: 700;
+
+}
+main em {
+    font-weight: 300;
+}
+
+main address {
+    font-style: normal;
+    background-color: #347474;
+   padding: .5rem;
+   border-radius: 10px;
+   border: 1px solid #42b883;
+   width: 200px;
+}
+main a {
+    color: #ff7e67;
+}
+main a:hover {
+    color: rgb(34, 159, 69);
+}
+
+figure.warpped {
+    width: 30%;
+    margin: 0 0 0 2%;
+float: right;
+    
+}
+figure.warpped img {
+    width: 100%;
+    height: auto;
+}
+figure.warpped figcaption {
+    font-size: 2rem;
+    text-align: center;
+    color: #42b883;
+    background-color: #347474;
+}
+
+div.gallary {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.gallary figure {
+    margin: .5rem 2% 0 0;
+}
+div.gallary figcaption {
+text-align: center;
+font-size: 2rem;
+color: #347474;
+background-color: #42b883;
+}
+
+.myForm fieldset {
+    border: 1px solid #ff7e67;
+    border-radius: 3px;
+    margin-bottom: 1rem;
+    }
+    
+    .myForm legend {
+     color: #dd7e67;
+     font-size: .8rem;
+    }
+    
+    .myForm label {
+    margin: .5rem;
+    }
+    
+    .myForm label, .myForm select, .myForm [type=text], .myForm [type=tel], .myForm textarea
+    {
+    display: block;
+    }
+    
+    .myForm [type=text], .myForm [type=tel], .myForm select,.myForm textarea {
+    border: solid 1px #42b883;
+    padding: .3rem;
+    width: 250px; 
+    border-radius: .3rem;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 200;
+    }
+    .myForm textarea {
+    height: 6rem;
+    }
+    
+    .myForm :required {
+    background-color: rgba(156,51,53,0.1);
+    }
+    
+    .myForm [type=submit] {
+    background-color: #dd7e67 ;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    color: white;
+    margin: 1rem 0 0 1vw
+    }
+
+
+/*Footer stuff here*/
+footer {
+    background-color: #eaeaea;
+    text-align: center;
+    padding: 1rem 0;
+}
+footer p {
+    margin: 0;
+    font-size: .8rem;
+    color: #333;
+    letter-spacing: 3px;
+}
+
+
+
+
